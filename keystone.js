@@ -12,7 +12,8 @@ var keystone = require('keystone');
 keystone.init({
 	'name': 'jg_translation',
 	'brand': 'jg_translation',
-	'port': 3010,
+
+	'mongo': process.env.MONGOLAB_URI,
 
 	'less': 'public',
 	'static': 'public',
