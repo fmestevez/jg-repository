@@ -60,10 +60,10 @@ Enquiry.schema.methods.sendNotificationEmail = function (callback) {
 		}).send({
 			to: admins,
 			from: {
-				name: 'jg_translation',
-				email: 'contact@jg_translation.com',
+				name: 'jgtranslates',
+				email: 'contact@jgtranslates.com',
 			},
-			subject: 'New Enquiry for jg_translation',
+			subject: 'New Enquiry for jgtranslates',
 			enquiry: enquiry,
 			brand: brand,
 		}, callback);

@@ -24,7 +24,7 @@ module.exports = {
 
 		var newEnquiry = new Enquiry.model({
 			name: { first: 'Test', last: 'User' },
-			email: 'contact@jg_translation.com',
+			email: 'contact@jgtranslates.com',
 			phone: '+61 2 1234 5678',
 			enquiryType: 'message',
 			message: { md: 'Nice enquiry notification.' },

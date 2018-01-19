@@ -10,8 +10,8 @@ var keystone = require('keystone');
 // and documentation.
 
 keystone.init({
-	'name': 'jg_translation',
-	'brand': 'jg_translation',
+	'name': 'jgtranslates',
+	'brand': 'jgtranslates',
 
 	'mongo': process.env.MONGOLAB_URI,
 
